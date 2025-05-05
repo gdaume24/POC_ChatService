@@ -13,7 +13,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         // Définit l'URL de connexion au WebSocket
-        registry.addEndpoint("/chat").withSockJS();
+        registry.addEndpoint("/ws").withSockJS();
     }
 
     @Override
