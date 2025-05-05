@@ -3,7 +3,7 @@ import { RxStompConfig } from '@stomp/rx-stomp';
 
 export const myRxStompConfig: RxStompConfig = {
   // Which server?
-  brokerURL: 'http://localhost:8080',  // L'URL de ton serveur WebSocket
+  brokerURL: 'ws://localhost:8080/chat',  // L'URL de ton serveur WebSocket
 
 
   // Headers

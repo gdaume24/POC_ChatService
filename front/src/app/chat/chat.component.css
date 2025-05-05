@@ -1,0 +1,87 @@
+.status-div {
+    border-bottom: 2px solid black;
+    padding: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    transition: 0.2s;
+    padding: 5px;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.375);
+    &:hover {
+      background-color: rgb(89, 89, 89);
+    }
+  }
+  
+  .status {
+    background-color: lightblue;
+    padding: 10px;
+    width: fit-content;
+    margin-bottom: 10px;
+    * {
+      margin: 0;
+    }
+  }
+  
+  .clients {
+    display: flex;
+  }
+  
+  .client {
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  .box {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    width: 200px;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 5px solid coral;
+    margin-top: 2px;
+  }
+  
+  .sender {
+    margin: 0;
+    font-size: 0.75rem;
+  }
+  
+  .message {
+    background-color: lightgreen;
+    color: black;
+    padding: 8px;
+    width: fit-content;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .messages {
+    overflow-y: auto;
+    margin-bottom: 100px;
+  }
+  
+  .send-box {
+    position: absolute;
+    bottom: 10px;
+    .send-btn {
+      width: 30px;
+    }
+    input {
+      padding: 10px;
+      border: none;
+      outline: none;
+      width: 70%;
+      margin-right: 4px;
+    }
+  }
