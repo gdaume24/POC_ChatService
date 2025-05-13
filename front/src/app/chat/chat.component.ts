@@ -23,21 +23,19 @@ export class ChatComponent implements OnInit, AfterViewChecked {
   clientMessage: string[] = [];
   messageQueue: string[] = [];
   users: string[] = [
-    'Jasper',
-    'Luke',
-    'Kieran',
-    'Terra',
-    'Erin',
-    'Belfry',
+    'Eleonore',
+    'Lucas',
     'Luna',
-    'Gaara',
-    'Nimbus',
-    'Akasha',
+    'Lucien',
+    'Georges',
+    'Huguette',
     'Leo',
     'Peter',
     'Jack',
     'Reid',
     'Ryan',
+    'Ronald',
+    'Kevin',
   ];
   activeUsers: string[] = [];
   @ViewChildren('messageContainer') messageContainer!: QueryList<ElementRef>;
